@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CustomRecyleView</string>
+
+    <string-array name="Disney_name">
+        <item>Peter Pan</item>
+        <item>Captin Hook</item>
+        <item>Aladdin</item>
+        <item>Jafar</item>
+    </string-array>
+
+    <string-array name="Disney_H_or_V">
+        <item>Hero</item>
+        <item>Villain</item>
+        <item>Hero</item>
+    </string-array>
+</resources>
