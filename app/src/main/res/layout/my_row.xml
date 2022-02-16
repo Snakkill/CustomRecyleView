@@ -14,19 +14,26 @@
 
     <TextView
         android:id="@+id/titleTv"
-        android:layout_width="108dp"
-        android:layout_height="50dp"
+        android:layout_width="187dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="75dp"
-        android:text="TextView" />
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@+id/myImage"
+        android:text="TextView"
+        android:textSize="40px" />
 
     <TextView
         android:id="@+id/subtitleTv"
-        android:layout_width="113dp"
-        android:layout_height="54dp"
+        android:layout_width="194dp"
+        android:layout_height="53dp"
         android:layout_below="@+id/titleTv"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="69dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="6dp"
+        android:layout_toEndOf="@+id/myImage"
         android:text="TextView" />
 </RelativeLayout>

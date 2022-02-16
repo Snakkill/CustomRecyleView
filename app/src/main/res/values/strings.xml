@@ -6,12 +6,16 @@
         <item>Captin Hook</item>
         <item>Peter Pan</item>
         <item>Jafar</item>
+        <item>Moana </item>
+        <item>Rapunzel</item>
     </string-array>
 
     <string-array name="Disney_H_or_V">
         <item>Hero</item>
         <item>Villain</item>
         <item>Hero</item>
-        <item>Villian</item>
+        <item>Villain</item>
+        <item>Princess</item>
+        <item>Princess</item>
     </string-array>
 </resources>

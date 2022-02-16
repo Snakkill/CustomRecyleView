@@ -9,7 +9,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
     RecyclerView r1;
     String s1[],s2[];
-    int imageResource[] = {R.drawable.aladdin,R.drawable.captin_hook,R.drawable.peter_pan,R.drawable.jafar};
+    int imageResource[] = {R.drawable.aladdin,R.drawable.captin_hook,R.drawable.peter_pan,R.drawable.jafar,R.drawable.moana,R.drawable.rapunzel};
 
 
 
