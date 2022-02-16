@@ -2,9 +2,9 @@
     <string name="app_name">CustomRecyleView</string>
 
     <string-array name="Disney_name">
-        <item>Peter Pan</item>
-        <item>Captin Hook</item>
         <item>Aladdin</item>
+        <item>Captin Hook</item>
+        <item>Peter Pan</item>
         <item>Jafar</item>
     </string-array>
 
@@ -12,5 +12,6 @@
         <item>Hero</item>
         <item>Villain</item>
         <item>Hero</item>
+        <item>Villian</item>
     </string-array>
 </resources>

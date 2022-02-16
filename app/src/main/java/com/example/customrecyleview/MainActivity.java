@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Get string data
         s1 = getResources().getStringArray(R.array.Disney_name);
-        s1 = getResources().getStringArray(R.array.Disney_H_or_V);
+        s2 = getResources().getStringArray(R.array.Disney_H_or_V);
 
         MyOwnAdapter ad = new MyOwnAdapter(this,s1,s2,imageResource);
         r1.setAdapter(ad);

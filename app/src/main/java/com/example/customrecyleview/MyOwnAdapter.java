@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class MyOwnAdapter extends RecyclerView.Adapter<MyOwnAdapter.MyOwnHolder> {
-    public static String[] data1;
+    String[] data1;
     String[] data2;
     int img[];
     Context ctx;
@@ -34,13 +34,13 @@ public class MyOwnAdapter extends RecyclerView.Adapter<MyOwnAdapter.MyOwnHolder>
 
     @Override
     public void onBindViewHolder(@NonNull MyOwnHolder holder, int position) {
-          //  holder.t1.setText(data1(position));
-          //  holder.t2.setText(data2(position));
-          //  holder.myimage.setImageResource(img(position));
+         holder.title.setText(data1[position]);
+          holder.subtitle.setText(data2[position]);
+          holder.myimage.setImageResource(img[position]);
 
     }
 
-   
+
 
 
     @Override
@@ -49,12 +49,12 @@ public class MyOwnAdapter extends RecyclerView.Adapter<MyOwnAdapter.MyOwnHolder>
     }
 
     public class MyOwnHolder extends RecyclerView.ViewHolder{  //initilzes layout iteams
-        TextView t1,t2;
+        TextView title,subtitle;
         ImageView myimage;
         public MyOwnHolder(@NonNull View itemView) {
             super(itemView);
-            t1=(TextView) itemView.findViewById(R.id.text1);
-            t1=(TextView) itemView.findViewById(R.id.text2);
+            title=(TextView) itemView.findViewById(R.id.titleTv);
+            subtitle=(TextView) itemView.findViewById(R.id.subtitleTv);
             myimage = (ImageView) itemView.findViewById(R.id.myImage);
         }
     }
